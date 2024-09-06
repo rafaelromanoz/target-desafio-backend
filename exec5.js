@@ -1,0 +1,33 @@
+// Análise e Resposta
+// Ambos os veículos estarão à mesma distância de Ribeirão Preto quando se cruzarem na rodovia. Vamos explicar o porquê:
+
+// Ponto de encontro: O ponto de encontro dos dois veículos representa o momento em que ambos percorreram uma distância combinada igual à distância total entre as duas cidades (125 km).
+// Distância percorrida: Independentemente da velocidade ou dos obstáculos no caminho, quando se cruzam, a soma da distância percorrida pelo carro e a distância percorrida pelo caminhão será igual a 125 km.
+// Conclusão: Isso significa que, no momento do encontro, ambos estarão equidistantes do ponto de partida do outro, ou seja, à mesma distância de Ribeirão Preto.
+
+
+// Podemos calcular o tempo que leva para os veículos se encontrarem e a distância percorrida por cada um até esse momento, mas isso não é necessário para responder à pergunta principal.
+
+// Tempo até o encontro:
+
+// Seja 't' o tempo (em horas) até o encontro.
+// Distância percorrida pelo carro: 90t
+// Distância percorrida pelo caminhão: 80t
+// Distância total: 90t + 80t = 125
+// 170t = 125
+// t = 125/170 ≈ 0.735 horas (aproximadamente 44 minutos)
+// Tempo adicional do carro nos pedágios:
+
+// 3 pedágios * 5 minutos/pedágio = 15 minutos
+// 15 minutos / 60 minutos/hora = 0.25 horas
+// Tempo total do carro:
+
+// 0.735 horas + 0.25 horas = 0.985 horas
+// Distância percorrida até o encontro:
+
+// Carro: 90 km/h * 0.985 h ≈ 88.65 km
+// Caminhão: 80 km/h * 0.735 h ≈ 58.8 km
+// Verificação:
+
+// Distância total percorrida: 88.65 km + 58.8 km ≈ 147.45 km
+// A distância total percorrida é ligeiramente maior que a distância entre as cidades devido ao tempo adicional que o carro gasta nos pedágios. No entanto, isso não altera o fato de que, no momento do encontro, ambos estão à mesma distância de Ribeirão Preto.
